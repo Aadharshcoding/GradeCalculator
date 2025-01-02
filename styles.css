@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: #0A0A0A;
+}
+h1 {
+    color:#ffffff
+}
+.calculator {
+    display: inline-block;
+}
+th {
+    color:#ffffff;
+    text-align: center;
+}
