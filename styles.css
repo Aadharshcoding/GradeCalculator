@@ -7,8 +7,53 @@ h1 {
 }
 .calculator {
     display: inline-block;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
 }
 th {
+    border: 1px solid #ffffff;
     color:#ffffff;
     text-align: center;
+    padding: 10px;
+    background-color: #333333;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+button {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px; 
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+button:is(:hover) {
+    transform: scale(1.15);
+}
+#result {
+    color:#ffffff
+}
+#calculate {
+    background-color: #054c32;
+}
+#addRow {
+    background-color: rgb(153, 202, 218);
 }
